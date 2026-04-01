@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pendaftaran Reseller Banonavr</title>
+</head>
+<body>
+
+    <center>
+        <h1>Formulir Pendaftaran Reseller Banonavr</h1>
+        <p>Enjoy in every bite!</p>
+    </center>
+
+    <hr>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Data Diri Calon Reseller</legend>
+            <br>
+            <label for="nama">Nama Lengkap :</label><br>
+            <input type="text" id="nama" name="nama" size="40" required><br><br>
+
+            <label for="nohp">No. WhatsApp :</label><br>
+            <input type="tel" id="nohp" name="nohp" placeholder="Contoh: wa.me/628123456789" required><br><br>
+
+            <label for="email">Alamat Email :</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="alamat">Alamat Lengkap (Domisili) :</label><br>
+            <textarea id="alamat" name="alamat" rows="4" cols="50" required></textarea><br><br>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Pilihan Kemitraan</legend>
+            <br>
+            <label>Pilih Paket Reseller :</label><br>
+            <input type="radio" name="paket" value="pemula"> Paket Pemula (10 Produk) <br>
+            <input type="radio" name="paket" value="bisnis"> Paket Bisnis (30 Produk) <br>
+            <input type="radio" name="paket" value="agen"> Paket Agen (50+ Produk) <br><br>
+
+            <label for="wilayah">Wilayah Pemasaran Utama :</label><br>
+            <select id="wilayah" name="wilayah">
+                <option value="surabaya">Surabaya</option>
+                <option value="sidoarjo">Sidoarjo</option>
+                <option value="mojokerto">Mojokerto</option>
+                <option value="luar">Luar Kota Lainnya</option>
+            </select><br><br>
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" name="syarat" required> 
+        Saya setuju dengan syarat dan ketentuan menjadi partner Banonavr.<br><br>
+
+        <input type="submit" value="Daftar Sekarang">
+        <input type="reset" value="Hapus Data">
+    </form>
+
+    <hr>
+    <center>
+        <small>&copy; 2026 Banonavr - Business Statistics Project</small>
+    </center>
+
+</body>
+</html>
